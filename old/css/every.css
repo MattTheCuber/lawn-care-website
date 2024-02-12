@@ -1,0 +1,94 @@
+.logo
+	{
+		float:left;
+		margin-left:25px;
+		margin-right:25px;
+		margin-top:20px;
+		margin-left:100px;
+	}
+div.motto
+	{
+		font-size:50px;
+		color:#fff;
+		font-family:;
+		text-align:left;
+		margin-top:-10px;
+	}
+header
+	{
+		background-color:#000;
+		width:101.2592494487762%;
+		margin:-8px;
+		border-bottom:2.5px solid #000;
+		font-weight:normal;
+		color:white;
+		position:sticky;
+		z-index:1000;
+		top:0px;
+		background-image:url(../Pictures/Mow.jpg);
+    	background-position:425px 0px;
+    	background-repeat:no-repeat;
+	}
+a.link
+	{
+		float:left;
+		font-size:25px;
+		margin-left:150px;
+	}
+a
+	{
+		color:white;
+	}
+a:hover
+	{
+		color:#1e8a00;
+	}
+a:active
+	{
+		color:#dbd800;
+	}
+body
+	{
+		text-align:center;
+		font-family:Times New Roman;
+		color:black;
+		background-color:#b3efe9;
+	}
+footer
+	{
+		background-color:#b3efe9;
+		width:101.25%;
+		margin:-8px;
+		text-align:center;
+		border-top:2.5px solid #000;
+	}
+div.search
+	{
+		visibility:hidden;
+		float:right;
+		margin-right:10px;
+	}
+h1 {
+	font-size:50px;
+}
+section.body_sec {
+	font-size:20px;
+	text-align:center;
+	margin-left:-8px;
+	margin-top:-12px;
+	margin-bottom:-12px;
+	background-color:#b3efe9;
+	width:101.25%;
+	height:525px;
+}
+.link
+	{
+		text-align:right;
+		margin-left:50%;
+		margin-top:-30px;
+		font-size:25px;
+	}
+.links
+	{
+		float:left;
+	}

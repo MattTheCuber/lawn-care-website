@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Matt's | Lawn Care</title>
+		<link rel="shorcut icon" href="./images/mv-icon.png" title="Favicon"/>
+		<link rel="stylesheet" type="text/css" href="./css/home.css"/>
+    	<script type="text/javascript" src="./js/home.js"></script>
+	</head>
+	<body onload="makeClock();">
+		<header>
+			<a title="Home" href="./home.html"><img class="logo" width="97" height="69" src="./images/mv.png" alt="Logo"/></a>
+			<br>
+	        <div class="motto">
+	            Lawn Care
+	        </div>
+	        <nav class="navbar">
+		        <div class="link">
+		            <div class="links">
+		            	<a class="home_anc" href="javascript:history.go(0)" title="Home">
+		            		<img onmouseover="
+		            			this.src='./images/home-hover.png';
+		            		" onmouseout="
+		            			this.src='./images/home-icon.png';
+		            		" alt="home-picture" id="home" width="26" height="26" src="./images/home-icon.png">
+		            	</a>
+						<a href="./html/About.html">What I can Do</a>
+			            <a href="./html/calendar/June.html">Calendar</a>
+			            <a href="./html/Quotes.html">Comments</a>
+			            <a href="./html/Tools.html">Tools</a>
+		            </div>
+		            <div class="search">
+						<input class="search" type="search" size="25" placeholder="Search">
+						 <button onclick="alert('Sorry, but this search bar is out of service.');" type="button">Submit</button>
+		            </div>
+		        </div>
+		        <noscript><font color="red" size="6px"><b><u>This Website uses JavaScript so if you have the JavaScript turned off please turn it on.</u></b></font></noscript>
+		        <br><br>
+	        </nav>
+		    <br>
+    	</header>
+    	<br>
+      	<table class="big">
+	        <tr>
+	          	<td>
+	          		<div class="now">
+		    			<img src="./images/spring.gif">
+		    			<h1>Spring!</h1>
+				   		I can clean up anything from winter or move or cut brush and fallen limbs. &nbsp;I can also clean up porches. &nbsp;I am not avalible on Sundays.
+					</div>
+					<canvas id="canvas" width="200" height="200"></canvas>
+		          	<p>
+		          		<h3>
+		          			<script type="text/javascript">timeGreet();</script>
+		          			<br>
+		          			Welcome to Matthew's Bluberry Hill Lawn Care Website!
+		          			<br><br>
+		          			This website is for my bisiness on Lawn Care!
+		          			<br>
+	    					<u>Call Matthew to schedule! 525-1000</u>
+		          		</h3>
+		          	</p>
+	        	</td>
+	      	</tr>
+	    </table>
+    	<br>
+      	<footer>
+	        Copyright &#169;  
+	        <script type="text/javascript">
+	        	var lastmoddate = new Date(document.lastModified);
+	        	var mymoy = lastmoddate.getMonth();
+	        	var mydom = lastmoddate.getDate();
+	        	var myyear = lastmoddate.getFullYear();
+	        	var monthNames = ["January", "Febuary", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+	        	var nameOfMonth = monthNames[mymoy]
+	        	document.write(nameOfMonth + " " + mydom + ", " + myyear);
+	        </script> by <b>Matthew</b>
+        	<img width="16" height="16"src="./images/mv-icon.png"/>
+      	</footer>
+	</body>
+</html>

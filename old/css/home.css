@@ -1,0 +1,115 @@
+body
+	{
+		text-align:center;
+		font-family:Times New Roman;
+		color:black;
+		background-image:url(../Pictures/homebg.jpg);
+		margin-left:-8px;
+		margin-right:0px;
+		margin-top:-8px;
+		margin-bottom:-8px;
+	}
+header
+	{
+		background-color:#000;
+		width:100%;
+		border-bottom:2.5px solid #000;
+		font-weight:normal;
+		color:white;
+		position:sticky;
+		z-index:1000;
+		top:0px;
+		background-image:url(../Pictures/Mow.jpg);
+    	background-position:425px 0px;
+    	background-repeat:no-repeat;
+	}
+div.search
+	{
+		visibility:hidden;
+		float:right;
+		margin-right:10px;
+	}
+table.big
+	{
+		text-align:center;
+		width:100%;
+		margin-top:-12px;
+		margin-bottom:-12px;
+		background-color:#b3efe9;
+	}
+h3 {
+	margin-top:100px;
+}
+#canvas {
+	float:left;
+	margin-left:150px;
+	margin-right:15px;
+	margin-top:75px;
+}
+footer
+	{
+		background-color:#b3efe9;
+		width:100%;
+		margin-top:-8px;
+		text-align:center;
+		border-top:2.5px solid #000;
+	}
+.link
+	{
+		text-align:right;
+		margin-left:50%;
+		margin-top:-30px;
+		font-size:25px;
+	}
+.links
+	{
+		float:left;
+	}
+.search
+	{
+		margin-left:15px;
+		margin-right:5px;
+	}
+.logo {
+	float:left;
+	margin-left:50px;
+	margin-right:50px;
+	margin-top:15px;
+}
+.now {
+	padding:15px;
+	background-color:#fff;
+	border:5px solid #000;
+	border-radius:5px;
+	float:right;
+	margin-right:150px;
+	margin-bottom:10px;
+	margin-top:10px;
+	width:225px;
+}
+div.motto
+	{
+		font-size:50px;
+		color:#fff;
+		font-family:;
+		text-align:left;
+		margin-top:-10px;
+	}
+a.home_anc {
+	text-decoration:none;
+}
+img#home {
+	margin-top:-5px;
+}
+a
+	{
+		color:white;
+	}
+a:hover
+	{
+		color:#b3efe9;
+	}
+a:active
+	{
+		color:#dbd800;
+	}
