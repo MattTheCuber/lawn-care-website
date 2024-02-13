@@ -1,6 +1,6 @@
 # Lawn Care Website
 
-One of the first websites I built. Developed in 2015 (age 11).
+One of the first websites I built. Developed in 2015 (age 12).
 
 ![image](https://github.com/MattTheCuber/lawn-care-website/assets/32849887/11b8631e-de5e-41d2-88b2-905022c03911)
 
